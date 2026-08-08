@@ -1,0 +1,16 @@
+{
+  "name": "pizza-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "format": "prettier --write \"src/**/*.{js,jsx,scss,json,html}\"",
+    "preview": "vite preview"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
